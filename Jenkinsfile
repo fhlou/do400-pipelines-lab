@@ -12,7 +12,7 @@ pipeline {
                 }
                 
             }      
-            stage ('Integregation_tests'){
+            stage ('Integration_tests'){
                 when {
                     expression { return params.RUN_INTEGRATION_TESTS }
                 }
